@@ -1,0 +1,10 @@
+# Python dependencies will be added here
+# pip install fastapi "uvicorn[standard]" sqlalchemy "pydantic>=2" python-dotenvfastapi
+uvicorn[standard]
+sqlalchemy
+pydantic>=2
+python-dotenv
+# pip install boto3 botocore
+boto3
+botocore
+# pip install boto3 python-dotenv
