@@ -1,5 +1,5 @@
 // API client for backend
-const API_BASE = "http://127.0.0.1:8000";
+const API_BASE = "https://cloud-resource-manager.onrender.com";
 
 const BASE_URL = "http://127.0.0.1:8000";
 
