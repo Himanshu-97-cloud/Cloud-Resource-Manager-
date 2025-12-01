@@ -1,5 +1,8 @@
 // API client for backend
-const API_BASE = "https://cloud-resource-manager.onrender.com";
+const API_BASE = import.meta.env.VITE_API_BASE ??
+  (window.location.hostname.includes("vercel.app")
+    ? "https://cloud-resource-manager.onrender.com"
+    : "http://127.0.0.1:8000");
 
 const BASE_URL = "http://127.0.0.1:8000";
 
