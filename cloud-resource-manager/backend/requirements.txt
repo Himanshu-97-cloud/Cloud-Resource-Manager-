@@ -1,5 +1,6 @@
 # Python dependencies will be added here
 # pip install fastapi "uvicorn[standard]" sqlalchemy "pydantic>=2" python-dotenvfastapi
+fastapi
 uvicorn[standard]
 sqlalchemy
 pydantic>=2
